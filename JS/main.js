@@ -19,7 +19,8 @@ function modelLoaded() {
 function gotPoses(results){
     if (results.length > 0){
         console.log(results)
-        // console.log(results[0].pose.nose.x)  
-    } 
+        console.log(results[0].pose.nose.x)  
+        console.log(results[0].pose.nose.y)  
+    }
 }
 
